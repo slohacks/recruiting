@@ -1,0 +1,42 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/teamWhite.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 9.58% [logo] 9.84% 20.99% [content] 50% 9.58%;
+  grid-template-rows: 12.9% [logo]12% 6.5% [content]55% 12.9%;
+}
+
+.logo {
+  grid-column-start: logo;
+  grid-row-start: logo;
+}
+
+.h1 {
+  display: none;
+}
+
+.recruitingText {
+  grid-column-start: content;
+  grid-row-start: content;
+}
+
+.animatedTeam {
+  grid-column-start: logo;
+  grid-column-end: 4;
+  grid-row-start: content;
+  align-self: end;
+  margin-bottom: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.spacer {
+  width: 100vw;
+  height: 32vh;
+  background-image: url('../assets/teamColor.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
