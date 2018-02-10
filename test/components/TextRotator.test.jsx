@@ -1,4 +1,4 @@
-import TextRotator from './TextRotator';
+import TextRotator from '../../src/components/TextRotator';
 
 test('cycles index', () => {
   const testArr = ['one', 'two', 'three', 'four'];
