@@ -1,8 +1,4 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "airbnb-browser-shims": "^2.1.0",
     "gatsby": "^1.9.158",
@@ -15,27 +11,39 @@
     "react-helmet": "^5.2.0",
     "typography": "^0.16.6"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "lint": "eslint src/",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
+    "babel-jest": "^22.2.2",
     "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
-    "prettier": "^1.10.2"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.2.2",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "^16.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint": "eslint src/",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "roots": [
+      "src/"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "identity-obj-proxy"
+    }
   },
   "config": {
     "commitizen": {
