@@ -6,13 +6,19 @@
   background-attachment: fixed;
   background-position: center;
   display: grid;
-  grid-template-columns: 9.58% [logo] 9.84% 20.99% 2.55% [content] 47.45% 9.58%;
-  grid-template-rows: 12.9% [logo] 12% 6.5% [content] 55% 12.9%;
+  grid-template-columns: 9.58% 9.84% 20.99% 2.55% 47.45% 9.58%;
+  grid-template-rows: 12.9% 12% 6.5% 55% 12.9%;
+  grid-template-areas: ". .    .    . .    ."
+                       ". logo .    . .    ."
+                       ". .    .    . .    ."
+                       ". team team . text ."
+                       ". .    .    . .    .";
 }
 
 .logo {
-  grid-column-start: logo;
-  grid-row-start: logo;
+  grid-area: logo;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .h1 {
@@ -20,8 +26,7 @@
 }
 
 .recruitingText {
-  grid-column-start: content;
-  grid-row-start: content;
+  grid-area: text;
   align-self: end;
   font-size: 6vw;
   margin-bottom: 0;
@@ -32,9 +37,7 @@
 }
 
 .animatedTeam {
-  grid-column-start: logo;
-  grid-column-end: 4;
-  grid-row-start: content;
+  grid-area: team;
   align-self: end;
   margin-bottom: 0;
   max-height: 100%;
