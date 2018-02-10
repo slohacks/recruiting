@@ -1,9 +1,11 @@
 import React from 'react';
+import TextRotator from '../components/TextRotator';
 import styles from './index.module.css';
 import logo from '../assets/logo.png';
 import animatedTeam from '../assets/team.gif';
 
-const IndexPage = () => (
+/* eslint-disable react/prop-types */
+const IndexPage = ({ data }) => (
   <div>
     <header className={styles.hero}>
       <img
@@ -15,7 +17,13 @@ const IndexPage = () => (
         SLO Hacks
       </h1>
       <h2 className={styles.recruitingText}>
-        We&rsquo;re <br />recruiting <br /><span className={styles.adjective} >adjectives</span>
+        We&rsquo;re <br />
+        recruiting <br />
+        <TextRotator
+          words={data.site.siteMetadata.adjectives.split(', ')}
+          colors={['#0F96F5', '#05D26E', '#FFC819']}
+          delay={2000}
+        />
       </h2>
       <img
         src={animatedTeam}
@@ -32,5 +40,16 @@ const IndexPage = () => (
     />
   </div>
 );
+
+/* eslint-disable no-undef */
+export const query = graphql`
+  query DataQuery {
+    site {
+      siteMetadata {
+        adjectives
+      }
+    }
+  }
+`;
 
 export default IndexPage;
