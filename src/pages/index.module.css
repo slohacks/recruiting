@@ -6,13 +6,25 @@
   background-attachment: fixed;
   background-position: center;
   display: grid;
-  grid-template-columns: 9.58% 9.84% 20.99% 2.55% 47.45% 9.58%;
-  grid-template-rows: 12.9% 12% 6.5% 55% 12.9%;
-  grid-template-areas: ". .    .    . .    ."
-                       ". logo .    . .    ."
-                       ". .    .    . .    ."
-                       ". team team . text ."
-                       ". .    .    . .    .";
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 6% 10% 28% 50% 6%;
+  grid-template-areas: ". .    ."
+                       ". logo ."
+                       ". text ."
+                       ". team ."
+                       ". .    .";
+}
+
+@media all and (min-width: 839px) {
+  .hero {
+    grid-template-columns: 9.58% 9.84% 20.99% 2.55% 47.45% 9.58%;
+    grid-template-rows: 12.9% 12% 6.5% 55% 12.9%;
+    grid-template-areas: ". .    .    . .    ."
+                         ". logo .    . .    ."
+                         ". .    .    . .    ."
+                         ". team team . text ."
+                         ". .    .    . .    .";
+  }
 }
 
 .logo {
@@ -28,8 +40,15 @@
 .recruitingText {
   grid-area: text;
   align-self: end;
-  font-size: 6vw;
-  margin-bottom: 0;
+  font-size: 7vh;
+  margin-bottom: 1vh;
+}
+
+@media all and (min-width: 839px) {
+  .recruitingText {
+    font-size: 8vw;
+    margin-bottom: 0;
+  }
 }
 
 .adjective {
