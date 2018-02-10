@@ -17,8 +17,8 @@ class TextRotator extends React.Component {
   componentWillMount() {
     setInterval(() => {
       this.setState({
-        currentWordIndex: this.cycleIndex(this.state.currentWordIndex, this.props.words.length),
-        currentColorIndex: this.cycleIndex(this.state.currentColorIndex, this.props.colors.length),
+        currentWordIndex: TextRotator.cycleIndex(this.state.currentWordIndex, this.props.words),
+        currentColorIndex: TextRotator.cycleIndex(this.state.currentColorIndex, this.props.colors),
       });
     }, this.props.delay);
   }
