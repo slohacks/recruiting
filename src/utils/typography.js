@@ -8,6 +8,7 @@ const typography = new Typography({
     'Helvetica',
     'sans-serif',
   ],
+  headerColor: '#465A64',
   bodyFontFamily: [
     'Avenir',
     'Helvetica Neue',
