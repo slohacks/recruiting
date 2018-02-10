@@ -15,7 +15,7 @@ const IndexPage = () => (
         SLO Hacks
       </h1>
       <h2 className={styles.recruitingText}>
-        We&apos;re recruiting!
+        We&rsquo;re <br />recruiting <br /><span className={styles.adjective} >adjectives</span>
       </h2>
       <img
         src={animatedTeam}
