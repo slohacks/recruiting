@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class TextRotator extends React.Component {
+  static cycleIndex(index, arr) {
+    return (index + 1) % arr.length;
+  }
+
   constructor() {
     super();
     this.state = {
@@ -13,8 +17,8 @@ class TextRotator extends React.Component {
   componentWillMount() {
     setInterval(() => {
       this.setState({
-        currentWordIndex: (this.state.currentWordIndex + 1) % this.props.words.length,
-        currentColorIndex: (this.state.currentColorIndex + 1) % this.props.colors.length,
+        currentWordIndex: this.cycleIndex(this.state.currentWordIndex, this.props.words.length),
+        currentColorIndex: this.cycleIndex(this.state.currentColorIndex, this.props.colors.length),
       });
     }, this.props.delay);
   }
