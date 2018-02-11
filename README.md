@@ -1,13 +1,22 @@
-# gatsby-starter-default
-The default Gatsby starter
+# SLO Hacks recruiting
+See the [Gatsby Docs](https://www.gatsbyjs.org/docs/) to get started.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+## Technology Stack
+This project uses _React_, _GraphQL_, & _Webpack_ through _Gatsby_, _ESLint_ with Airbnb rules for linting, and _Jest_ for testing.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Style Guides
+* Javascript/JSX: [Airbnb](https://github.com/airbnb/javascript)
+* CSS: [CSS Modules](https://github.com/css-modules/css-modules)
+  * There's no need for BEM in this project
+  * As a rule of thumb, choose simple, descriptive names for your classes
 
-## Deploy
+## Scripts
+> Ensure you have `gatsby` installed globally before running these
+* Build: `yarn build`
+* Develop: `yarn develop`
+* Lint: `yarn lint`
+* Test: `yarn test`
+* Deploy (to gh-pages): `yarn deploy`
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Other Notes
+* Permissions for the repo have yet to be configured.
