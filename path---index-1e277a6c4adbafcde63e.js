@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{234:function(t,e){t.exports={data:{site:{siteMetadata:{adjectives:"students, mustangs, designers"}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-1e277a6c4adbafcde63e.js.map
