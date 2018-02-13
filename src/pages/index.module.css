@@ -79,20 +79,57 @@
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  grid-template-areas: ". text .";
+  grid-template-rows: min-content min-content;
+  grid-template-areas: ". text        ."
+                       ". pseudoTable .";
   padding: 6% 0 3%;
 }
 
 @media all and (min-width: 839px) {
   .content {
     grid-template-columns: 9.58% 80.84% 9.58%;
-    grid-template-areas: ". text .";
+    grid-template-rows: min-content min-content;
+    grid-template-areas: ". text        ."
+                         ". pseudoTable .";
     padding: 12.9% 0 6%;
   }
 }
 
 .text {
   grid-area: text;
+}
+
+.pseudoTable {
+  grid-area: pseudoTable;
+}
+
+@media all and (min-width: 839px) {
+  .pseudoTable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "design      hackerExperience marketing"
+                         "sponsorship tech             .        ";
+  }
+}
+
+.design {
+  grid-area: design;
+}
+
+.hackerExperience {
+  grid-area: hackerExperience;
+}
+
+.marketing {
+  grid-area: marketing;
+}
+
+.sponsorship {
+  grid-area: sponsorship;
+}
+
+.tech {
+  grid-area: tech;
 }
 
 .apply {
