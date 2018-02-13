@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
-    adjectives: 'students, mustangs, designers',
+    adjectives: 'mustangs, students, creatives, innovators, hackers',
   },
   plugins: [
     {

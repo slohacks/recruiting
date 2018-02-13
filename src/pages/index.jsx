@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => (
         <TextRotator
           words={data.site.siteMetadata.adjectives.split(', ')}
           colors={['#0F96F5', '#05D26E', '#FFC819']}
-          delay={2000}
+          delay={1000}
         />
       </h2>
       <img
