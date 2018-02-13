@@ -50,46 +50,39 @@ const IndexPage = ({ data }) => (
         <div className={styles.design}>
           <h3>Design</h3>
           <ul>
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <li>set</li>
+            <li>Design website mockups & graphics for marketing</li>
+            <li>Help establish creative direction/theme</li>
+            <li>Work on the most front-facing work of SLO Hacks</li>
+            <li>Note: required experience in UI/UX design, Sketch</li>
           </ul>
         </div>
         <div className={styles.hackerExperience}>
           <h3>Hacker Experience</h3>
           <ul>
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <li>set</li>
+            <li>Procure food/snack/drink sponsors</li>
+            <li>Manage hacker transportation (flights, buses, carpools)</li>
+            <li>Coordinate venue details and decorations</li>
           </ul>
         </div>
         <div className={styles.marketing}>
           <h3>Marketing</h3>
           <ul>
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <li>set</li>
+            <li>Create marketing campaigns to promote events</li>
+            <li>Work with design to get graphics online</li>
           </ul>
         </div>
         <div className={styles.sponsorship}>
           <h3>Sponsorship</h3>
           <ul>
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <li>set</li>
+            <li>Help deal with club finances</li>
+            <li>Work with industry sponsors to fund hackathon</li>
           </ul>
         </div>
         <div className={styles.tech}>
           <h3>Tech</h3>
           <ul>
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <li>set</li>
+            <li>Help code our website, application portal, internal tools</li>
+            <li>Note: required experience in web development (preferably with React.js, Node.js, MongoDB)</li>
           </ul>
         </div>
       </div>
