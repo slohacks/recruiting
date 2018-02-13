@@ -110,6 +110,10 @@
     grid-template-areas: "design      hackerExperience marketing"
                          "sponsorship tech             .        ";
   }
+
+  .pseudoTable > div {
+    padding: 0 1rem;
+  }
 }
 
 .design {
