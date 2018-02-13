@@ -1,4 +1,4 @@
-![header](https://user-images.githubusercontent.com/986543/36165733-5f6f5bea-10a5-11e8-973f-e93ca220a4a2.jpg)
+![SLO Hacks Recruiting](https://user-images.githubusercontent.com/986543/36173748-e42184bc-10be-11e8-8b5a-df0dbde14645.png)
 
 See the [Gatsby Docs](https://www.gatsbyjs.org/docs/) to get started.
 
