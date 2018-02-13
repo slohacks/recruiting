@@ -9,6 +9,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'SLO Hacks' },
         { name: 'keywords', content: 'san luis obispo, cal poly, hackathon, coding, software, competition, recruiting' },
+        { name: 'theme-color', content: '#FFFFFF' },
       ]}
     />
     <div>
