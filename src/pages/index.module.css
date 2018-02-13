@@ -63,11 +63,31 @@
   max-width: 100%;
 }
 
-.spacer {
+.window {
   width: 100vw;
   height: 48vh;
   background-image: url('../assets/teamColor.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+
+.content {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-areas: ". text .";
+  padding: 6% 0;
+}
+
+@media all and (min-width: 839px) {
+  .content {
+    grid-template-columns: 9.58% 80.84% 9.58%;
+    grid-template-areas: ". text .";
+    padding: 12.9% 0;
+  }
+}
+
+.text {
+  grid-area: text;
 }
