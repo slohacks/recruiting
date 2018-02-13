@@ -10,13 +10,16 @@ These are the tools that we're using in this project.
 	* [airbnb/javascript](https://github.com/airbnb/javascript)
 * [Jest](https://facebook.github.io/jest/docs/en/getting-started.html)
 
-## Getting Started
+## Getting Started (Workflow)
 1. Fork the repository and clone it to your machine
 2. Use the following commands as needed:
    - To run the dev server: `yarn run develop`
    - To build for production: `yarn run build`
    - To lint your code: `yarn run lint`
    - To test your code: `yarn run test`
+4. Create a pull request with your changes
+5. Address any issues brought up by maintainers
+   - Your changes will be automatically deployed to `gh-pages` upon a successful merge with `master`
 
 ## Standards
 To contribute to this project, you must conform to the following standards.
