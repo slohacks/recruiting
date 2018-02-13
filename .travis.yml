@@ -6,12 +6,13 @@ before_script:
 script:
   - npm run lint
   - npm run test
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run build; fi
+before_deploy:
+  - npm run build
 deploy:
-  provider: pages
-  local-dir: public
   skip-cleanup: true
+  provider: pages
   github-token: $GITHUB_TOKEN
+  local-dir: public
   target-branch: gh-pages
   keep-history: true
   email: 34457519+slohacksbot@users.noreply.github.com
