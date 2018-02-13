@@ -1,26 +1,5 @@
-![SLO Hacks Recruiting](https://user-images.githubusercontent.com/986543/36173748-e42184bc-10be-11e8-8b5a-df0dbde14645.png)
+![SLO Hacks Recruiting](https://user-images.githubusercontent.com/986543/36175038-078250fe-10c3-11e8-8e9b-5bcb4529822c.png)
 
-See the [Gatsby Docs](https://www.gatsbyjs.org/docs/) to get started.
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-## Technology Stack
-This project uses _React_, _GraphQL_, & _Webpack_ through _Gatsby_, _ESLint_ with Airbnb rules for linting, and _Jest_ for testing.
-
-## Style Guides
-* Javascript/JSX: [Airbnb](https://github.com/airbnb/javascript)
-* CSS: [CSS Modules](https://github.com/css-modules/css-modules)
-  * There's no need for BEM in this project
-  * As a rule of thumb, choose simple, descriptive names for your classes
-
-## Commits
-Use `git cz` from [commitizen](https://github.com/commitizen/cz-cli) to make your commits. Commits that don't use commitizen for naming will not be accepted.
-
-## Scripts
-> Ensure you have `gatsby` installed globally before running these
-* Build: `yarn build`
-* Develop: `yarn develop`
-* Lint: `yarn lint`
-* Test: `yarn test`
-* Deploy (to gh-pages): `yarn deploy`
-
-## Other Notes
-* Permissions for the repo have yet to be configured.
+__Welcome!__ This is the repository for our 2018-19 recruiting website. We're looking for new team members that can help us create amazing hackathons. See our `CONTRIBUTING` document to learn more about this project.
