@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => (
         <p>The SLO Hacks team is dedicated to spreading a culture of tech and innovation throughout Cal Poly. Aside from our flagship event, we host multiple hackathons each year. Our team is composed of five groups: Design, Hacker Experience, Marketing, Sponsorship, and Tech.</p>
         <h2>Why should you join?</h2>
         <p>As a hackathon organizer, you’ll gain valuable experience by working on amazing events. Our team members work in a variety of areas, they interact with great sponsors from companies like Viasat, Google, and Intuit, create open source tools to empower our events, plan logistics for events comprising hundreds of people, and much much more.</p>
-        <h2>What do your teams do?</h2>
+        <h2>What do our teams do?</h2>
       </div>
       <div className={styles.pseudoTable}>
         <div className={styles.design}>
