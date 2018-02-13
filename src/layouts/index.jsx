@@ -7,9 +7,9 @@ import styles from './index.module.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="SLO Hacks"
+      title="SLO Hacks Recruiting"
       meta={[
-        { name: 'description', content: 'SLO Hacks' },
+        { name: 'description', content: 'SLO Hacks Recruiting' },
         { name: 'keywords', content: 'san luis obispo, cal poly, hackathon, coding, software, competition, recruiting' },
         { name: 'theme-color', content: '#FFFFFF' },
       ]}

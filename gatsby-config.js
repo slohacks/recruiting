@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'SLO Hacks Recruiting',
     adjectives: 'mustangs, students, creatives, innovators, hackers',
   },
   plugins: [
