@@ -33,7 +33,6 @@
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "lint": "eslint src/",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
