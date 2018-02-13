@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import './index.css';
+import styles from './index.module.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -15,6 +17,12 @@ const TemplateWrapper = ({ children }) => (
     <div>
       {children()}
     </div>
+    <footer
+      className={styles.footer}
+    >
+      <p>Made with <span>♥</span> by the SLO Hacks Team</p>
+      <p>© SLO Hacks 2018</p>
+    </footer>
   </div>
 );
 
