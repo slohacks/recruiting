@@ -3,6 +3,7 @@ import TextRotator from '../components/TextRotator';
 import styles from './index.module.css';
 import logo from '../assets/logo.png';
 import animatedTeam from '../assets/team.gif';
+import Button from '../components/Button';
 
 /* eslint-disable react/prop-types, max-len */
 const IndexPage = ({ data }) => (
@@ -44,6 +45,13 @@ const IndexPage = ({ data }) => (
         <h2>Why should you join?</h2>
         <p>As a hackathon organizer, you’ll gain valuable experience by working on amazing events. Our team members work in a variety of areas, they interact with great sponsors from companies like Viasat, Google, and Intuit, create open source tools to empower our events, plan logistics for events comprising hundreds of people, and much much more.</p>
       </div>
+    </section>
+    <section className={styles.apply}>
+      <h2>Want to join our team?</h2>
+      <Button
+        name="Apply"
+        href="https://goo.gl/forms/E6MNzlmCNYI6R5Lo1"
+      />
     </section>
   </div>
 );
