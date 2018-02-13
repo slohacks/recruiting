@@ -106,9 +106,10 @@
 @media all and (min-width: 839px) {
   .pseudoTable {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "design      hackerExperience marketing"
-                         "sponsorship tech             .        ";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "design    hackerExperience"
+                         "marketing sponsorship     "
+                         "tech      .               ";
   }
 
   .pseudoTable > div {
