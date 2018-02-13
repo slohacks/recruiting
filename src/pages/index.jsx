@@ -8,11 +8,16 @@ import animatedTeam from '../assets/team.gif';
 const IndexPage = ({ data }) => (
   <div>
     <header className={styles.hero}>
-      <img
-        src={logo}
-        alt="Logo"
-        className={styles.logo}
-      />
+      <a
+        href="https://slohacks.com/"
+        className={styles.logoLink}
+      >
+        <img
+          src={logo}
+          alt="Logo"
+          className={styles.logo}
+        />
+      </a>
       <h1 className={styles.h1}>
         SLO Hacks
       </h1>
