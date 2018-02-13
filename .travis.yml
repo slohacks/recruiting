@@ -6,3 +6,15 @@ before_script:
 script:
   - npm run lint
   - npm run test
+  - npm run build
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  target-branch: gh-pages
+  email: mian@slohacks.com
+  name: SLO Hacks Bot
+  on:
+    repo: slohacks/recruiting
+    branch: master
