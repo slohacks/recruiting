@@ -1,0 +1,23 @@
+.Button {
+  background: transparent;
+  color: #0f96f5;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 0.175rem 2.75rem;
+  line-height: 1.5;
+  border-radius: 2rem;
+  border: 2px solid #0f96f5;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.Button:hover {
+  color: #fff;
+  background-color: #0f96f5;
+  border-color: #0f96f5;
+  text-decoration: none;
+  cursor: pointer;
+}
