@@ -13,7 +13,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   target-branch: gh-pages
-  email: mian@slohacks.com
+  email: 34457519+slohacksbot@users.noreply.github.com
   name: SLO Hacks Bot
   on:
     branch: master
