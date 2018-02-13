@@ -7,7 +7,7 @@ These are the tools that we're using in this project.
 * [Gatsby](https://www.gatsbyjs.org/docs/)
 	* [React](https://reactjs.org/docs/hello-world.html)
 * [ESLint](https://eslint.org/docs/user-guide/getting-started)
-	* [GitHub - airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript)
+	* [airbnb/javascript](https://github.com/airbnb/javascript)
 * [Jest](https://facebook.github.io/jest/docs/en/getting-started.html)
 
 ## Getting Started
