@@ -6,3 +6,14 @@ before_script:
 script:
   - npm run lint
   - npm run test
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then npm run build; fi
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  target-branch: gh-pages
+  email: mian@slohacks.com
+  name: SLO Hacks Bot
+  on:
+    branch: master
