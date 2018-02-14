@@ -85,13 +85,20 @@
   padding: 6% 0 3%;
 }
 
+.content h2 {
+  margin-top: 2.34615rem;
+}
+
+.content h2:first-of-type{
+  margin-top: 0;
+}
+
 @media all and (min-width: 839px) {
   .content {
     grid-template-columns: 9.58% 80.84% 9.58%;
     grid-template-rows: min-content min-content;
     grid-template-areas: ". text        ."
                          ". pseudoTable .";
-    padding: 12.9% 0 6%;
   }
 }
 
