@@ -5,6 +5,8 @@ import styles from './Button.module.css';
 const Button = props => (
   <a
     href={props.href}
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <button
       type="button"
