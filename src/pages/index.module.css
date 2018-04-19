@@ -8,22 +8,24 @@
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: 6% 10% 28% 50% 6%;
-  grid-template-areas: ". .    ."
-                       ". logo ."
-                       ". text ."
-                       ". team ."
-                       ". .    .";
+  grid-template-areas:
+    '. .    .'
+    '. logo .'
+    '. text .'
+    '. team .'
+    '. .    .';
 }
 
 @media all and (min-width: 839px) {
   .hero {
     grid-template-columns: 9.58% 9.84% 20.99% 2.55% 47.45% 9.58%;
     grid-template-rows: 12.9% 12% 6.5% 55% 12.9%;
-    grid-template-areas: ". .    .    . .    ."
-                         ". logo .    . .    ."
-                         ". .    .    . .    ."
-                         ". team team . text ."
-                         ". .    .    . .    .";
+    grid-template-areas:
+      '. .    .    . .    .'
+      '. logo .    . .    .'
+      '. .    .    . .    .'
+      '. team team . text .'
+      '. .    .    . .    .';
   }
 }
 
@@ -80,8 +82,9 @@
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: min-content min-content;
-  grid-template-areas: ". text        ."
-                       ". pseudoTable .";
+  grid-template-areas:
+    '. text        .'
+    '. pseudoTable .';
   padding: 6% 0 3%;
 }
 
@@ -89,7 +92,7 @@
   margin-top: 2.34615rem;
 }
 
-.content h2:first-of-type{
+.content h2:first-of-type {
   margin-top: 0;
 }
 
@@ -97,8 +100,9 @@
   .content {
     grid-template-columns: 9.58% 80.84% 9.58%;
     grid-template-rows: min-content min-content;
-    grid-template-areas: ". text        ."
-                         ". pseudoTable .";
+    grid-template-areas:
+      '. text        .'
+      '. pseudoTable .';
   }
 }
 
@@ -114,9 +118,10 @@
   .pseudoTable {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "design    hackerExperience"
-                         "marketing sponsorship     "
-                         "tech      .               ";
+    grid-template-areas:
+      'design    hackerExperience'
+      'marketing sponsorship     '
+      'tech      .               ';
   }
 
   .pseudoTable > div {
