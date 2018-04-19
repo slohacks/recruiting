@@ -1,2 +1,2 @@
-webpackJsonp([0x81b8806e4260],{238:function(t,e){t.exports={data:{site:{siteMetadata:{adjectives:"mustangs, students, creatives, innovators, hackers"}}},pathContext:{}}}});
+webpackJsonp([0x81b8806e4260],{235:function(t,e){t.exports={data:{site:{siteMetadata:{adjectives:"mustangs, students, creatives, innovators, hackers"}}},pathContext:{}}}});
 //# sourceMappingURL=path---index-2e67633b291447a259b5.js.map
