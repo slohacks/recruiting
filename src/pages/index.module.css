@@ -48,7 +48,7 @@
 }
 
 .recruitingText {
-  color: #fff;
+  color: #FFF;
   grid-area: text;
   align-self: end;
   font-size: 7vh;
@@ -96,6 +96,10 @@
 
 .content h2 {
   margin-top: 2.34615rem;
+}
+
+.apply > h2 {
+  color: #FFF;
 }
 
 .content h2:first-of-type {
@@ -164,10 +168,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-}
-
-.apply > h2 {
-  color: #FFFFFF;
 }
 
 .apply a:hover {
