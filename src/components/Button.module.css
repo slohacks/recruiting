@@ -1,23 +1,24 @@
 .Button {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 700;
   background: transparent;
-  color: #0F96F5;
+  color: #FFFFFF;
   display: inline-block;
-  font-weight: 100;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   vertical-align: middle;
   padding: 0.175rem 2.75rem;
   line-height: 1.5;
-  border-radius: 2rem;
-  border: 2px solid #0F96F5;
+  border-radius: 1.25rem;
+  border: 2px solid #FFFFFF;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .Button:hover {
-  color: #FFF;
-  background-color: #0F96F5;
-  border-color: #0F96F5;
+  color: #0E397A;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
 }
