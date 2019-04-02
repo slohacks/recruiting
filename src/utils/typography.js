@@ -3,14 +3,13 @@ import Typography from 'typography';
 const typography = new Typography({
   baseFontSize: '16px',
   headerFontFamily: [
-    'Avenir',
+    'Brandon Grotesque',
     'Helvetica Neue',
     'Helvetica',
     'sans-serif',
   ],
-  headerColor: '#465A64',
+  headerColor: '#0E397A',
   bodyFontFamily: [
-    'Avenir',
     'Helvetica Neue',
     'Helvetica',
     'sans-serif',

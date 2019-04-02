@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
       className={styles.footer}
     >
       <p>Made with <span>♥</span> by the SLO Hacks Team</p>
-      <p>© SLO Hacks 2018</p>
+      <p>© SLO Hacks 2019</p>
     </footer>
   </div>
 );
