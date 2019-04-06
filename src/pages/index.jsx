@@ -89,7 +89,7 @@ const IndexPage = ({ data }) => (
       <h2>Want to join our team?</h2>
       <Button
         name="Apply"
-        href="https://www.iso.org/standard/8250.html"
+        href="https://forms.gle/VGkjtRn4kBCk19eF8"
       />
     </section>
   </div>
