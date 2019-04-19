@@ -20,8 +20,8 @@ const TemplateWrapper = ({ children }) => (
     <footer
       className={styles.footer}
     >
-      <p>Made with <span>♥</span> by the SLO Hacks Team</p>
-      <p>© SLO Hacks 2019</p>
+      <p>Made with <span>♥</span> by only Youn.Tommy21</p>
+      <p>© Youn.Tommy21 2019</p>
     </footer>
   </div>
 );
