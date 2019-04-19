@@ -12,15 +12,8 @@ const IndexPage = ({ data }) => (
         href="https://slohacks.com/"
         className={styles.logoLink}
       >
-        <img
-          src={logo}
-          alt="Logo"
-          className={styles.logo}
-        />
+        <h1>Youn.Tommy21</h1>
       </a>
-      <h1 className={styles.h1}>
-        SLO Hacks
-      </h1>
       <h2 className={styles.recruitingText}>
         We&rsquo;re
         recruiting<br />
@@ -35,7 +28,7 @@ const IndexPage = ({ data }) => (
     <section className={styles.content}>
       <div className={styles.text}>
         <h2>Who are we?</h2>
-        <p>SLO Hacks is an ASI club that puts on quarterly hackathons. Our fall and spring hackathons are geared towards our local community, while our winter hackathon is our flagship event, bringing students from all over the nation. Our last event, SLO Hacks 2019, brought 300+ students from a variety of states.</p>
+        <p>Youn.Tommy21 is an ASI club that puts on quarterly hackathons. Our fall and spring hackathons are geared towards our local community, while our winter hackathon is our flagship event, bringing students from all over the nation. Our last event, SLO Hacks 2019, brought 300+ students from a variety of states.</p>
         <p>Our mission is to bring the national hacker community at other universities over to SLO. We also hope to bridge the professional and student communities in the area.</p>
         <h2>Why should you join?</h2>
         <p>As a hackathon organizer, you’ll gain valuable experience by working on amazing events. Our team members work in a variety of areas, they interact with great sponsors from companies like Viasat, Google, and Intuit, create open source tools to empower our events, plan logistics for events comprising hundreds of people, and much much more.</p>
@@ -86,7 +79,7 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
     <section className={styles.apply}>
-      <h2>Want to join our team?</h2>
+      <h2>Want to join our Youn.Tommy21?</h2>
       <Button
         name="Apply"
         href="https://forms.gle/VGkjtRn4kBCk19eF8"
